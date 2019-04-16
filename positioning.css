@@ -1,0 +1,44 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+.container {
+    margin: auto;
+    width: 960px;
+}
+
+.label {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#relative {
+    background-color: #eee;
+    padding: 50px 0px 100px;
+    /* height: 200px; */
+    position: relative;
+}
+
+#absolute {
+    background-color: #999;
+    padding: 25px;
+    position: absolute;
+    
+}
+
+#fixed {
+    background-color: #eee;
+    position: fixed;
+    height: 150px;
+    width: 300px;
+    top: 0;
+    left: 0;
+
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
